@@ -1,0 +1,99 @@
+APITUDE
+
+1. C.37
+2. C.20
+3  A.100
+4. C.63
+5. C.43
+6. C.L
+7. B.N
+8. B.FR
+9. C.bccab
+10. B.GOU
+11. A.2
+12  D. 49
+13. D. Window
+14. A. Earth
+15. D.HJ
+
+Java
+
+1. Java is a high level Language and it is a Platform indepedent language 
+	Javac is compile the code which will return by the coder.
+	
+2.	JDK- Java Development Kit - it provides space for user to return the program.
+	JRE- Java Runtime Environment - it will provide runtime of the program.
+	JVM- Java Virtual Machine - it gives the output using byte code and also generate a bytecode. and print it on the console.
+	
+3. Array it is sensitive in datatype we can write particular value to particular Datatype, if we give integer values to String 
+	data type it does not work.
+	
+4. Class: it is primative data, or customized data we can use at declartion of the program.
+   Object: it is a real world entity it has state and behaviour. every object has a state and behaviour based on that user
+   will return the program.
+   Signature of class: signatures are type abstractions or interfaces of classes.
+   
+5. Array: it is container it can store the same value of Datatype which we declared.
+
+6. .java file: .java is user Writing and understand  program it will return by the programmer this file do not understand by JvM 
+   .class: it is bytecode program .java file can not understand by the JVM.
+   
+7.  Length of the array is 5.
+
+8. it is another class created with in the class.
+
+9. Java is a high level Language and it is a Platform indepedent language.
+
+10. Variable is a hold the value of data type,
+	there are three types of variable
+	instance variable : craeted after the class function mean outside of the constructor and varible call at anyside of the program.
+	static variable: variable decalared with in the same body, and varible also called with in the outside of the body.
+	void variable:  variable decalared with in the same body, and varible also called with in the same body.
+	
+11. class variable: Class variables also known as static variables are declared with the static keyword in a class, 
+	but outside a method, constructor or a block.
+
+12. Data types : There are 2 types of Data 
+	1. Primative Datatype: short, byte, int, long, char, float, double, boolean(8 types): this data types are bulit by java.
+	2. Non-primative Datatype : String, classes name and instances(non-primative data programmer can defined itself)
+	
+13. Java features: using java 3 Billion software are running at present.
+		1. Java used for mobile also.
+		2. Development of application.
+		3. It used in web development.
+		4. It is used in robotics.
+
+14. Types of array in java:
+	There is 2 type of array in java
+	1. Single diementional array.
+	2. Double/dynamic diementional array.
+
+15. In Java, ArrayIndexOutOfBoundsException is a runtime exception that occurs when we try to access an array 
+    or a collection that is backed by an array with an invalid index. This means that the index is either less than
+   zero or greater than or equal to the size of the array.
+
+16. System.out.println(""); it is a meesage , this will return on the console it is not a output.
+
+17. It is a mathematical operation, "==" it means eqaulto Double operator is a, equals() 
+	return true if doubleValue() are equal is == for double and "equals()" for Double 
+	guaranteed to evaluate to true for 2 variables initialized using the same literal
+
+18. The dot operator, also known as separator or period used to separate a variable or method from a reference variable.
+
+19. the base class of all the clases is main class it means main method,
+	class name{
+		public static void main(String[] args){
+			}
+	} // this is the base clases of all the classes.
+		
+20. Java 10 Keywords
+			1.int
+			2.float
+			3.double
+			4.void 
+			5.static
+			6.byte
+			7.short
+			8.long
+			9.char
+			10.for
