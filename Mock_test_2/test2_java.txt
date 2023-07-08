@@ -1,0 +1,102 @@
+1] true
+
+2] 110, 20
+
+3] Error : int can not be converted into boolean
+
+4] Why main method in static?
+	It is an acces modifier method in main method. We create main method in public acess specifier to excute it by any program, so it is 
+	required to define main method public.
+	
+5] write program to revrse array elemnts
+	Input: 10, 45, 7, 9, 2
+	output: 2, 9, 7, 45, 10
+	
+	Solution:
+	
+	class Reverse{
+	public static void main(String[] args){
+		 
+	int[] reverse = {10, 45, 7, 9, 2};
+	
+	
+	for(int rev=4; rev>=0; rev--){
+		System.out.println("Reverse order :"+ reverse[rev]);
+	}
+}
+}
+
+6] write a program to arrange array elements in descending order and remove the duplicates
+
+	solution: 
+	public class Main {
+	public static void main(String[] args) {
+    int[] input = {2, 5, 4, 8, 2, 3, 6, 2};
+    int[] output = sortDescendingAndRemoveDuplicates(input);
+    System.out.println(Arrays.toString(output));
+  }
+
+	public static int[] sortDescendingAndRemoveDuplicates(int[] arr) {
+    Arrays.sort(arr);
+    int i = 0;
+    for (int j = 0; j < arr.length; j++) {
+      if (arr[j] != arr[i]) {
+        i++;
+        arr[i] = arr[j];
+      }
+    }
+    int[] result = new int[i + 1];
+    for (int k = 0; k <= i; k++) {
+      result[k] = arr[i - k];
+    }
+    return result;
+  }
+}
+
+7] Output is :  Done
+
+8]Difference between this and this()
+
+	this
+	this keyword is used to the current object that is through which method is called.
+	
+	this()
+	this() is used call one constructor from the other of the same class.
+	
+9] Write a program to swap a two number without using 3rd variable?
+		
+	Solution:
+	
+	class Swaping{
+	public static void main(String args[])
+	{
+		int a=10, b=20;
+		System.out.println("Before swapping :"+ a +"," +b);
+		a=a+b;//30
+		b=a-b;//10
+		a=a-b;//20
+		System.out.println("After swapiing :"+a +"," +b);
+	}
+}
+
+10. Write a program to print the pattern
+
+
+class Pattern1 {
+	public static void main(String[] args){
+	System.out.println("&   &\n  &  \n&   &");
+	}
+}
+2
+class Pattern2 {
+	public static void main(String[] args){
+	System.out.println("% % %\n% & %\n% % %");
+	}
+}
+3
+class Pattern2 {
+	public static void main(String[] args){
+	System.out.println("% % %\n%   %\n% % %");
+	}
+}
+    
